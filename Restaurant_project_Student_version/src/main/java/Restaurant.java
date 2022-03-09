@@ -68,4 +68,16 @@ public class Restaurant {
         return name;
     }
     // Part 3 - Future Implementation order value check:
+
+    public int total_order_value_of_selected_items(List<Item> selectedItems) {
+        int orderTotal = 0;
+        for(Item item : selectedItems)
+        {
+            orderTotal = orderTotal + item.getPrice();
+
+        }
+
+        return orderTotal;
+    }
+
 }
