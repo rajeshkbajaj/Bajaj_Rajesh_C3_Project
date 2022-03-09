@@ -67,5 +67,5 @@ public class Restaurant {
     public String getName() {
         return name;
     }
-
+    // Part 3 - Future Implementation order value check:
 }
